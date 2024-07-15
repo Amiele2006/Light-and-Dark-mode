@@ -1,0 +1,38 @@
+.btn-container{
+    width:50px;
+    height: 18px;
+    display:block;
+    margin:0 auto;
+    border:none;
+    border-radius: 60px;
+    background-color: pink;
+}
+
+#btn{
+    border:none;
+    border-radius: 20px;
+    background-color:black;
+    width:9px;
+    height:13px;
+    margin-left: 10px;
+    margin-top: 2px;
+    transition: transform 0.5s;
+}
+
+h1{
+    color:black;
+}
+
+body.light-mode{
+    background-color: white;
+    color:black;
+}
+
+body.dark-mode{
+    background-color: black;
+    color:white;
+}
+
+body.dark-mode h1 {
+    color:white;
+}
